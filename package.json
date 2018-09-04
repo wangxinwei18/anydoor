@@ -1,0 +1,38 @@
+{
+  "name": "anydoor11",
+  "version": "1.1.3",
+  "description": "Tiny NodeJS Static Web Server",
+  "main": "src/app11.js",
+  "bin": {
+    "anydoor": "bin/anydoor11"
+  },
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangxinwei18/anydoor.git"
+  },
+  "author": "WXX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangxinwei18/anydoor/issues"
+  },
+  "homepage": "https://github.com/wangxinwei18/anydoor#readme",
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.4.0",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "handlebars": "^4.0.11",
+    "yargs": "^12.0.1"
+  }
+}
